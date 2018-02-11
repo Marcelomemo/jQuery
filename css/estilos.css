@@ -1,0 +1,57 @@
+
+h1 {
+
+    border: 1px solid cadetblue;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+	text-shadow: 2px 2px 2px #808080;
+}
+
+input[type=text], input[type=number] {
+    width: 200px;
+    padding: 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+label{
+	font-weight: bold; 
+	width: 100px; 
+	float: left;
+	padding-top: 10px;
+}
+
+button{
+	color: #fff;
+	background-color: cadetblue;
+	border-color: cornflowerblue;
+	border: 1px solid transparent;
+	border-radius: 3px;
+	padding: 5px 10px;
+	font-size: 12px;
+	line-height: 1.5;
+
+	}
+
+button:hover {
+	background-color: darkcyan;
+	border-color: dimgray;
+}
+
+table{
+	width: 100%;
+	border-radius: 5px;
+}
+
+.footer{
+	margin-top: 50px;
+	background-color: cadetblue;
+	padding: 10px;
+}
+
+.footer p {
+    margin: 6px;
+    margin: 10px 0 10px 0;
+}

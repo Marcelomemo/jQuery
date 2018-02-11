@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name='viewport' content='width=device-width initial-scale=1'>
+    <meta name='mobile-web-app-capable' content='yes'>
+    <meta name="author" content="Marcelo Narváez">
+    <meta name="description" content="jQuery realizado por: Marcelo Narváez">	
+	<title> jQuery </title>
+    
+	<link href="css/estilos.css" rel="stylesheet" >
+
+</head>
+<body>
+
+	<div class="contenedor">
+
+		<div>
+			<from>
+			<h1> Registro de Estudiantes </h1>
+
+			<div>
+				<label for="Codigo">Codigo:</label>
+				<input type="text" id="Codigo" disabled>
+			</div>
+
+			<div >
+				<label for="Nombre">Nombre:</label>
+				<input type="text" id="Nombre">
+			</div>
+
+			<div >
+				<label for="Nota">Nota:</label>
+				<input type="number" id="Nota" onKeyPress="return texto_valor(event)">
+			</div>
+
+			<button type="button" id="Estudiante" > Registrar Estudiante </button>
+			<button type="button" id="Restablecer" > Restablecer Form </button>
+			<button type="button" id="Promedio" > Mostrar Promedio </button>
+			<button type="button" id="Mayor" > Mostrar Nota Mayor </button>
+			<button type="button" id="Menor" > Mostrar Nota Menor </button>
+			</from>
+		</div>
+
+		<div>
+			<h1> Lista de Estudiantes </h1>
+			<div id="listado">
+				<table border="1">
+					<thead>
+						<tr>
+							<th> Código </th>
+							<th> Nombre </th>
+							<th> Nota </th>
+							<th> Editar </th>
+							<th> Eliminar </th>
+						</tr>
+					</thead>
+				</table>
+			</div>
+		</div>
+
+		<div class="footer">
+			<p>Realizado por: Hugo Marcelo Naráez Salazar</p>
+			<p>Correo electrónico: marcelo_memo@hotmail.com</p>
+			<p>Movil: (+593) 99 929 6231</p>
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+
+
+</body>
+</html>
